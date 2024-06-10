@@ -1,0 +1,47 @@
+.box {
+    height: 300px;
+    width: 300px;
+    background-color: #11c5c6;
+}
+
+p {
+    height: 75%;
+    width: 75%;
+    background-color: #fbdd1c;
+}
+
+
+/*
+Dimension
+Standarnya, sebuah box yang dihasilkan tiap elemen selalu cukup 
+untuk menampung konten. Namun, kita dapat mengatur nilai dimensi 
+dari box tersebut dengan properti width dan height. 
+
+Cara yang paling banyak digunakan dalam menentukan dimensi kotak 
+adalah menggunakan piksel, persentase, atau ems. Secara tradisional, 
+piksel merupakan cara yang paling populer karena kita dapat merancang 
+dan mengontrol ukuran secara akurat. 
+
+Berbeda ketika kita menggunakan persentase, ukuran kotak akan relatif 
+atau menyesuaikan dari ukuran lain, seperti ukuran jendela browser 
+atau ukuran induk yang menaunginya. Namun ketika menggunakan ems, 
+nilai dimensi kotak akan menyesuaikan berdasarkan ukuran teks yang 
+ditampilkan pada konten elemen tersebut.
+
+Pada saat ini, banyak developer mulai merancang menggunakan persentase 
+dan ems untuk menetapkan ukuran box agar dapat menyesuaikan dengan 
+berbagai macam ukuran layar.
+
+
+Pada contoh di atas, kita dapat melihat elemen <div> memiliki dimensi 
+elemen dengan lebar 300px dan tinggi 300px. Di dalamnya terdapat 
+elemen <p> yang memiliki ukuran elemen 75% dari lebar dan tinggi 
+elemen induknya. Dengan demikian, elemen <p> memiliki ukuran 225px 
+untuk panjang dan lebarnya.
+
+
+
+
+
+
+*/

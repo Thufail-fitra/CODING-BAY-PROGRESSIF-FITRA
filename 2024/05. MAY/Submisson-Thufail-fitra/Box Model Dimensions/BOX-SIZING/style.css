@@ -1,0 +1,15 @@
+div {
+    height: 200px;
+    width: 200px;
+    background-color: lightgreen;
+    border: 10px solid cornflowerblue;
+    padding: 20px;
+}
+
+.content {
+    box-sizing: content-box;
+}
+
+.box {
+    box-sizing: border-box;
+}

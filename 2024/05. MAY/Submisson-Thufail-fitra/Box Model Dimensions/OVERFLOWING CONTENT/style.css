@@ -1,0 +1,42 @@
+div {
+    height: 200px;
+    width: 200px;
+    background-color: lightgreen;
+    /* OVERFLOW: VISIBLE; */
+    /* OVERFLOW: hidden; */
+    /* OVERFLOW: scroll; */
+    /* OVERFLOW: auto; */
+}
+
+
+/*
+
+Overflowing Content
+
+Dimensi box yang dihasilkan elemen selalu cukup untuk menampung konten, 
+tetapi hal ini tidak berlaku jika kita tetapkan secara manual panjang 
+dan lebarnya. Tak jarang terjadi overflow ketika kita menerapkan 
+ukuran pada elemen dengan konten di dalamnya yang begitu banyak.
+
+Untuk menangani kasus seperti ini kita bisa gunakan properti overflow, properti ini dapat bernilai berikut.
+
+visible
+Visible merupakan nilai default pada properti ini. Konten yang tidak 
+tertampung (overflow) akan tetap ditampilkan seperti pada standarnya.
+
+hidden
+Jika terjadi overflow, konten yang tidak tertampung akan disembunyikan.
+
+scroll
+Memunculkan scroll bar pada pinggir elemen sehingga konten yang tidak 
+tertampung akan ditampilkan dengan scroll bar. Jika menggunakan nilai ini,
+scroll bar akan tetap muncul walaupun konten tidak terjadi overflow.
+
+auto
+Sama seperti scroll, hanya jika tidak terjadi overflow, nilai visible yang akan diterapkan.
+
+
+
+
+
+*/
