@@ -1,0 +1,22 @@
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+.box:nth-child(odd) {
+    background-color: salmon;
+}
+
+.box:nth-child(even) {
+    background-color: lime;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    /* Silakan coba seluruh nilainya */
+    gap: 16px;
+    /*gap: 16px 24px;*/
+    /*row-gap: 16px;*/
+    /*column-gap: 24px;*/
+}

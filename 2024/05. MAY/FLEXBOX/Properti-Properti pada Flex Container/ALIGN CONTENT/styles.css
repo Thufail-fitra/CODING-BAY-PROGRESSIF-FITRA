@@ -1,0 +1,27 @@
+.box {
+    width: 100px;
+    /*height: 100px;*/
+}
+
+.box:nth-child(odd) {
+    background-color: salmon;
+}
+
+.box:nth-child(even) {
+    background-color: lime;
+}
+
+.flex {
+    background-color: lightgrey;
+    height: 50vh;
+    display: flex;
+    /* Align content hanya bekerja saat membentuk multi-lines*/
+    flex-wrap: wrap;
+    /* Silakan coba seluruh nilainya */
+    align-content: flex-start;
+    /*align-content: flex-end;*/
+    /*align-content: center;*/
+    /*align-content: space-between;*/
+    /*align-content: space-around;*/
+    /*align-content: space-evenly;*/
+}

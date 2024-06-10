@@ -1,0 +1,13 @@
+[class^=shrink] {
+    display: flex;
+}
+
+.shrink-1 .box {
+    background-color: salmon;
+    flex-shrink: 1;
+}
+
+.shrink-0 .box {
+    background-color: lime;
+    flex-shrink: 0;
+}

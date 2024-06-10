@@ -1,0 +1,21 @@
+.box {
+    width: 200px;
+    height: 100px;
+    margin-bottom: 8px;
+}
+
+.box:nth-child(odd) {
+    background-color: salmon;
+}
+
+.box:nth-child(even) {
+    background-color: lime;
+}
+
+.flex {
+    display: flex;
+    /* Silakan coba seluruh nilainya */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+}

@@ -1,0 +1,29 @@
+.box:nth-child(odd) {
+    background-color: salmon;
+}
+
+.box:nth-child(even) {
+    background-color: lime;
+}
+
+.flex {
+    padding: 8px;
+    background-color: lightgrey;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+[class^=box] {
+    flex-basis: 100px;
+}
+
+.box1 {
+    align-self: flex-end;
+}
+
+.box3 {
+    align-self: flex-start;
+}

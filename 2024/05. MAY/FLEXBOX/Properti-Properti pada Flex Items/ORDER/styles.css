@@ -1,0 +1,40 @@
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+.box:nth-child(odd) {
+    background-color: salmon;
+}
+
+.box:nth-child(even) {
+    background-color: lime;
+}
+
+.flex {
+    display: flex;
+    gap: 8px;
+}
+
+
+/* Silakan ubah nilai-nilai `order` berikut. */
+
+.box1 {
+    order: 1;
+}
+
+.box2 {
+    order: 0;
+}
+
+.box3 {
+    order: -1;
+}
+
+.box4 {
+    order: 5;
+}
+
+.box5 {
+    order: 4;
+}
