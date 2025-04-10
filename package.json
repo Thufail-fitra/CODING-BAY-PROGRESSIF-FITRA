@@ -1,0 +1,25 @@
+{
+  "name": "coding-bay-progressif-fitra",
+  "version": "1.0.0",
+  "description": "PROGRESS CODING TAHUN-AN -- DAYS-AN",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thufail-fitra/CODING-BAY-PROGRESSIF-FITRA.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thufail-fitra/CODING-BAY-PROGRESSIF-FITRA/issues"
+  },
+  "homepage": "https://github.com/Thufail-fitra/CODING-BAY-PROGRESSIF-FITRA#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
+  }
+}
